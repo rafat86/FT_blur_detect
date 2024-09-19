@@ -1,0 +1,9 @@
+In this assignment, you will write a simple python script to classify images into blurry/ not blurry using FT.
+The idea being that blurry images have non-sharp edges/fine details, and that will be reflected in the frequency 
+domain as low energy in the high frequency components, compared to the energy in the same components for the sharp (non-blurry) images.
+
+
+Remove the low frequency part (set it to zero) and then calculate the energy in the remaining high frequency elements.
+If the energy is greater than a specific threshold, the image is not blurry. Otherwise it is blurry. 
+Use provided images for testing. 
+Sample_res.png shows a sample result for one blurry image  and one not-blurry image.
